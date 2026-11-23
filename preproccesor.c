@@ -1,5 +1,4 @@
 #include "preprocessor.h"
-
 Macro macros[MAX_MACROS];
 int macro_count = 0;
 
