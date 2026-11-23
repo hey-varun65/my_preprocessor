@@ -24,10 +24,8 @@ extern Macro macros[MAX_MACROS];
 extern int macro_count;
 
 char *remove_comments(const char *source);
-
 void define_macro(char *line);
 void expand_macros(char *line, char *output);
-
 int process_file(const char *filename, FILE *out, int depth);
 
 #endif
